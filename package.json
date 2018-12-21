@@ -1,0 +1,41 @@
+{
+  "name": "react-native-webview-rtc",
+  "version": "1.0.7",
+  "description": "This is webview library , modified from react-native-webview-android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native",
+    "react-component",
+    "web",
+    "webview",
+    "html",
+    "frame",
+    "iframe",
+    "embed",
+    "android",
+    "upload",
+    "files",
+    "input"
+  ],
+  "author": {
+    "name": "Ricko Devian Anugrah",
+    "email": "rickodevian@gmail.com"
+  },
+  "homepage": "https://github.com/Rickodevian/react-native-webviewRTC",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rickodevian/react-native-webviewRTC"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0"
+  }
+}
