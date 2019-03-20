@@ -1,6 +1,6 @@
 {
   "name": "react-native-webview-rtc",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is webview library , modified from react-native-webview-android",
   "main": "index.js",
   "scripts": {
