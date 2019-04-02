@@ -202,16 +202,12 @@ class RNWebView extends WebView implements LifecycleEventListener {
             this.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         }
 
-        //Lucas
-        //this.setWebViewClient(new EventWebClient());
         this.setWebViewClient(new EventWebClient() {
-
             @Override
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
-                handler.proceed(); // Ignore SSL certificate errors
+                handler.cancel(); // Ignore SSL certificate errors
             }
         });
-
 
         this.setWebChromeClient(getCustomClient());
 
